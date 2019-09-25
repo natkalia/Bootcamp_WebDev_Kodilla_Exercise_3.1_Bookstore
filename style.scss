@@ -1,0 +1,57 @@
+/*Variables*/
+$color-dark: #bdc3c7;
+$font-text: 'Source Sans Pro', sans-serif;
+
+/*Global*/
+
+body {
+  font-family: $font-text;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+i {
+  font-size: 16px;
+}
+
+/*Carousel*/
+.carousel-item {
+  height: 100vh;
+    & img {
+      height: 100%;
+      object-fit: cover;
+    }
+}
+
+.slider {
+  & h1 {
+    font-size: 4rem;
+  }
+}
+
+.carousel-caption {
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%,-50%);
+}
+
+/*Products*/
+.card img {
+  width: 100%;
+  height: 300px; 
+  object-fit: cover;
+}
+
+/*Contact*/
+.contact {
+  background-color: $color-dark;
+  .card {
+    background-color: inherit;
+    border: none;
+  }
+}
+
