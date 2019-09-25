@@ -27,7 +27,10 @@ i {
 
 .slider {
   & h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+  }
+  & h2 {
+    font-size: 3rem;
   }
 }
 
@@ -55,3 +58,14 @@ i {
   }
 }
 
+/* Media */
+@media (max-width: 767px) {
+  .slider {
+    & h1 {
+      font-size: 2rem;
+    }
+    & h2 {
+      font-size: 1.5rem;
+    }
+  }
+}
