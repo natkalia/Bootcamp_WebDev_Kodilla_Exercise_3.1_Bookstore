@@ -16,6 +16,16 @@ i {
   font-size: 16px;
 }
 
+p {
+  font-size: 1.2rem;
+}
+
+/*Navbar*/
+
+.navbar h1 {
+  font-size: 1.2rem;
+}
+
 /*Carousel*/
 .carousel-item {
   height: 100vh;
@@ -26,10 +36,10 @@ i {
 }
 
 .slider {
-  & h1 {
+  & h2 {
     font-size: 5rem;
   }
-  & h2 {
+  & p {
     font-size: 3rem;
   }
 }
@@ -59,12 +69,12 @@ i {
 }
 
 /* Media */
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .slider {
-    & h1 {
-      font-size: 2rem;
-    }
     & h2 {
+      font-size: 2.5rem;
+    }
+    & p {
       font-size: 1.5rem;
     }
   }
